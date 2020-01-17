@@ -8,8 +8,9 @@ public interface AdminUserMapper {
 
     int insertSelective(AdminUser record);
 
-    //unknow
+
     AdminUser login(@Param("userName") String userName, @Param("password") String password);
+//    AdminUser login(String userName, String password);
 
     AdminUser selectByPrimaryKey(Integer adminUserId);
 

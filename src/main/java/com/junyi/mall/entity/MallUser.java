@@ -1,6 +1,7 @@
 package com.junyi.mall.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Builder;
 import lombok.Data;
 import lombok.ToString;
 
@@ -8,6 +9,7 @@ import java.util.Date;
 
 @Data
 @ToString
+@Builder
 public class MallUser {
     private Long userId;
 

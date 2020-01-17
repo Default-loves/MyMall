@@ -83,7 +83,6 @@
 
     <update id="updateByPrimaryKeySelective" parameterType="com.junyi.mall.entity.AdminUser">
         update tb_newbee_mall_admin_user
-<!--        UNKNOW-->
         <set>
             <if test="loginUserName != null">
                 login_user_name = #{loginUserName,jdbcType=VARCHAR},
