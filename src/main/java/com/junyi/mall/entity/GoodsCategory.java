@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data
 @ToString
-public class GoodCategory {
+public class GoodsCategory {
     private Long categoryId;
 
     private Byte categoryLevel;
