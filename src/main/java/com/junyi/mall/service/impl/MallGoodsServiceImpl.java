@@ -8,7 +8,6 @@ import com.junyi.mall.service.MallGoodsService;
 import com.junyi.mall.util.BeanUtil;
 import com.junyi.mall.util.PageQueryUtil;
 import com.junyi.mall.util.PageResult;
-import org.graalvm.util.CollectionsUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
@@ -18,7 +17,6 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-
 public class MallGoodsServiceImpl implements MallGoodsService {
     @Autowired
     private MallGoodsMapper mallGoodsMapper;
