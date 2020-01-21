@@ -1,9 +1,13 @@
 package com.junyi.mall.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+import lombok.ToString;
 
 import java.util.Date;
 
+@Data
+@ToString
 public class Carousel {
     private Integer carouselId;
 
