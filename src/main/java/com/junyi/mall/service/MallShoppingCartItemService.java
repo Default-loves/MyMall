@@ -28,7 +28,7 @@ public interface MallShoppingCartItemService {
      * @param MallShoppingCartItemId
      * @return
      */
-    MallShoppingCartItem getNewBeeMallCartItemById(Long MallShoppingCartItemId);
+        MallShoppingCartItem getNewBeeMallCartItemById(Long MallShoppingCartItemId);
 
     /**
      * 删除购物车中的商品
